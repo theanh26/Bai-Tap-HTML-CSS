@@ -1,0 +1,251 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .html, body {
+      padding: 0;
+      margin: 30px 120px 0px 120px;
+      background-color: #e1eeeb;
+      font-family: 'Manrope', sans-serif;
+  }
+
+  #header{
+      display: flex;
+      justify-content: space-between;
+  }
+  .logo p{
+      color: rgb(18, 156, 110);
+      font-size: 50px;
+      cursor: pointer;
+      
+      font-weight: 600;
+  }
+  .main-menu{
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+  .main-menu-item{
+      list-style-type: none;
+      margin-left: 20px;
+  }
+  
+  .main-menu-item a{
+      text-decoration: none;
+      color: rgba(35, 31, 31, 0.502);
+      text-transform: capitalize;
+      font-weight: 600;
+  }
+  
+  .main-menu-item-active a{
+      color: rgb(4, 20, 34);
+  }
+  
+  .main-menu-item{
+      display: inline;
+      font-size: 16px;
+      align-items: center;
+  }
+  
+    
+  .btn-btn-danger{
+      color: rgba(35, 31, 31, 0.502);
+      background-color: #e1eeeb !important;
+      border-radius: 25px !important;
+      border: 0 !important;
+      font-size: 16px;
+      font-weight: 600;
+      margin-right: 20px;
+      cursor: pointer;
+      font-family: 'Manrope', sans-serif;
+  
+  }
+  .btn-btn-info{
+    color: #f6f2f2;
+  border-radius: 12px !important;
+   background-color:rgb(18, 156, 110);  
+   border: 0 !important;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 10px;
+   margin-top: 10px;
+   cursor: pointer;
+   font-family: 'Manrope', sans-serif;;
+  }
+  .banner-description{
+    flex-basis: 50%;
+    padding-right: 20px;
+    font-size: 30px;
+  }
+  
+  .banner-description-title{
+    margin-top: 150px;
+    font-weight:900;
+    font-size: 70px;
+     
+  }
+  .banner-description-break{
+    margin-top: 50px;
+    border: 4px solid rgba(18, 156, 110, 0.8);
+    border-radius: 20px; 
+  }
+
+      
+  .banner-description-content{
+    width: 460px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+  
+  }
+  .banner-description-btn{
+    display: flex;
+  }
+  .btn-round{
+      border-radius: 50px;
+      background-color: rgba(18, 156, 110, 0.8);
+      color: #f3eded;
+      padding: 12px; 
+      margin-right: 50px;
+      border: none;
+      font-size: 15px;
+      font-weight: 500;
+  }
+  .btn-demo{
+     border: none;
+     font-size: 15px;
+     font-weight: 600;
+     background-color: #e1eeeb;
+     margin-top: 10px;
+     margin-left: 20px;
+     font-family: 'Manrope', sans-serif;;
+  }
+  .icon-view {
+   margin-left: 80px;
+   margin-top: 10px;
+  }
+  
+  .title-team {
+    margin-top: 100px;
+     text-align: center;
+     font-size: 40px;
+     font-weight: bold;
+  }
+  .category-team {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px 100px 0;
+    font-weight: 900;
+  }
+  .team-and-icon {
+    color: #959494;
+    display: flex;
+    font-size: 28px;
+  }
+ 
+  .header-bottom {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 150px;
+    }
+    .banner-image-wrap {
+      margin-top: 140px;
+      text-align: right;
+    }
+  .header-bottom {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .banner-image-wrap {
+    flex-basis: 50%;
+  }
+  
+  .banner-image-wrap img {
+    max-width: 100%;
+    height: auto;
+  }
+  .form-control-input{
+      border: none;
+      border-bottom: 1px solid #aaa;
+  }
+  .btn-sm{
+      padding: 5px;
+      width: 80px;
+      height: 25px;
+      font-size: 14px;
+  }
+  .person-container {
+   position: relative; 
+   width: 600px; 
+  }
+
+  .card-container {
+    right: 450px;
+      top: 600px;   
+      position: absolute;
+      display: flex;
+      transform: rotate(340deg);
+    }
+    
+    .card-container img {
+      width: 150px;
+      height: auto; 
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    
+    .item {
+      margin: 0 60px;
+    }
+    .item {
+      display: flex;
+  }
+    .item img {
+      width: 100px;
+    }
+    
+    .item p {
+      margin-top: 10px;
+    }
+  .text-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+    
+  .highlighted-text {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  
+    .icon-container {
+      display: flex;
+      align-items: center;
+      margin: 20px 93px;
+      margin-bottom: 22px;
+  }
+    
+    .text-container-head {
+      flex: 20;
+      margin: 10px 30px;
+      display: flex;
+    }
+    
+    .get-started-btn {
+      margin-left: 20px;
+    }
+    p.p1 {
+      margin-right: 120px;
+  }
